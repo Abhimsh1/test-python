@@ -1,4 +1,4 @@
-from test-class import TestClass
+from test_class import TestClass
 from os import path, getcwd
 
 print("Current working directory:", getcwd())
