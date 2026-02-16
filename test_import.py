@@ -5,8 +5,9 @@ print("Current working directory:", getcwd())
 print("Path to test_class.py:", path.abspath("test_class.py"))
 
 
-class TestClass(TestClass):
+class TestClassImpl(TestClass):
     def test_method(self):
         print("Implementation of test_method")
 
-obj = TestClass()
+obj = TestClassImpl()
+obj.test_method()
