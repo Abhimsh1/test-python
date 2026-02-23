@@ -10,3 +10,9 @@ class TestClass(TestClass):
         print("Implementation of test_method")
 
 obj = TestClass()
+
+
+with open("test_class.txt", "r") as file:
+    file_content = file.read()
+    print("Content of test_class.txt:")
+
